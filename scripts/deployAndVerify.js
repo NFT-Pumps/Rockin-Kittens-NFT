@@ -4,7 +4,7 @@ const ethers = hre.ethers;
 const args = require("./deployArgs")
 
 async function main() {
-    const contractName = "RockinSkullNFT"
+    const contractName = "RockinKittenNFT"
     const confirmationWait = 5;
 
     const [deployer] = await ethers.getSigners();
